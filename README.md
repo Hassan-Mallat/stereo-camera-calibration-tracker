@@ -33,7 +33,7 @@ pip install -r requirements.txt
  ┣ 📂 vids                          # (Empty) Place your input .mp4 files here
  ┗  requirements.txt              # Project dependencies (OpenCV, NumPy)
  ```  
-##Module Guide:
+## Module Guide:
 phys-tools: Contains chArucoCreator.py to digitally generate the high-resolution ChArUco boards and markers ready for physical printing.
 
 code: The main directory containing the entire computer vision pipeline:
