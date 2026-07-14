@@ -19,16 +19,16 @@ pip install -r requirements.txt
 ## 📂 Project Architecture
 
 ```text
-📦 stereo-camera-calibration-tracker
+ stereo-camera-calibration-tracker
  ┣ 📂 1_Data_Preparation
- ┃ ┣ 📜 charuco_generator.py        # Generates DICT_5X5_100 and DICT_4X4_50 boards
- ┃ ┗ 📜 video_extractor.py          # Frame extraction with gc memory optimization
+ ┃ ┣  charuco_generator.py        # Generates DICT_5X5_100 and DICT_4X4_50 boards
+ ┃ ┗  video_extractor.py          # Frame extraction with gc memory optimization
  ┣ 📂 2_Calibration
- ┃ ┣ 📜 calibration_undistortion.py # Computes camera matrices and distortion coeffs
- ┃ ┗ 📜 debug_aruco_detection.py    # Visual diagnostic tool for rejected markers
+ ┃ ┣  calibration_undistortion.py # Computes camera matrices and distortion coeffs
+ ┃ ┗  debug_aruco_detection.py    # Visual diagnostic tool for rejected markers
  ┣ 📂 3_Stereo_Tracking
- ┃ ┗ 📜 stereo_tracker.py           # Core engine: solvePnP, Epipolar snapping, 3D Triangulation & Fallback Z
+ ┃ ┗  stereo_tracker.py           # Core engine: solvePnP, Epipolar snapping, 3D Triangulation & Fallback Z
  ┣ 📂 vids                          # (Empty) Place your input .mp4 files here
- ┣ 📜 requirements.txt              # Project dependencies (OpenCV, NumPy)
- ┗ 📜 README.md
+ ┣  requirements.txt              # Project dependencies (OpenCV, NumPy)
+ ┗  README.md
 
