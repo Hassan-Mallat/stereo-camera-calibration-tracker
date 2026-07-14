@@ -33,16 +33,12 @@ pip install -r requirements.txt
  ┣ 📂 vids                          # (Empty) Place your input .mp4 files here
  ┗  requirements.txt              # Project dependencies (OpenCV, NumPy)
  ```  
-## Module Guide:
-phys-tools: Contains chArucoCreator.py to digitally generate the high-resolution ChArUco boards and markers ready for physical printing.
-
-code: The main directory containing the entire computer vision pipeline:
-
-Data Preparation: video_extractor.py extracts frames from your provided videos at a defined interval.
-
-Calibration: calibration.py calculates the intrinsic parameters to neutralize lens distortion, utilizing the Python Garbage Collector (gc) to prevent memory leaks during heavy matrix processing. debugAruco.py acts as a visual diagnostic tool to verify marker detection quality.
-
-Tracking & Triangulation: optimized_stereo_tracker.py is the core vectorized engine that computes extrinsic spatial positions and snaps raw pixels to Epipolar Lines for 3D triangulation. prediction_triangulation.py isolates the Fallback Z occlusion system to predict missing 2D coordinates using memorized heights.
+### Module Guide:
+* **`phys-tools`:** Contains `chArucoCreator.py` to digitally generate the high-resolution ChArUco boards and markers ready for physical printing.
+* **`code`:** The main directory containing the entire computer vision pipeline:
+  * **Data Preparation:** `video_extractor.py` extracts frames from your provided videos at a defined interval.
+  * **Calibration:** `calibration.py` calculates the intrinsic parameters to neutralize lens distortion, utilizing the Python Garbage Collector (`gc`) to prevent memory leaks during heavy matrix processing. `debugAruco.py` acts as a visual diagnostic tool to verify marker detection quality.
+  * **Tracking & Triangulation:** `optimized_stereo_tracker.py` is the core vectorized engine that computes extrinsic spatial positions and snaps raw pixels to Epipolar Lines for 3D triangulation. `prediction_triangulation.py` isolates the **Fallback Z** occlusion system to predict missing 2D coordinates using memorized heights.
 
 ## Author
 Hassan Mallat
