@@ -32,7 +32,7 @@ pip install -r requirements.txt
  ┃ ┗  video_extractor.py          # Frame extraction from video files
  ┣ 📂 vids                          # (Empty) Place your input .mp4 files here
  ┗  requirements.txt              # Project dependencies (OpenCV, NumPy)
-   
+ ```  
 ##Module Guide:
 phys-tools: Contains chArucoCreator.py to digitally generate the high-resolution ChArUco boards and markers ready for physical printing.
 
