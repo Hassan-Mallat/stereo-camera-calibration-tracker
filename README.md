@@ -14,6 +14,7 @@ Ensure you have Python 3.x installed. Then, install the required mathematical an
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## 📂 Project Architecture
 
@@ -30,3 +31,4 @@ pip install -r requirements.txt
  ┣ 📂 vids                          # (Empty) Place your input .mp4 files here
  ┣ 📜 requirements.txt              # Project dependencies (OpenCV, NumPy)
  ┗ 📜 README.md
+
