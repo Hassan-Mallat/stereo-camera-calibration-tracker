@@ -43,5 +43,5 @@ pip install -r requirements.txt
 ## Author
 Hassan Mallat
 
-Computer Science & Mathematics Double Major - Université Claude Bernard Lyon 1
+Computer Science & Mathematics - Université Claude Bernard Lyon 1
 
