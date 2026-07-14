@@ -1,4 +1,4 @@
-# 🎥 Multi-Camera Spatial Calibration & Stereo Tracking
+# Multi-Camera Spatial Calibration & Stereo Tracking
 
 This repository contains the software architecture and mathematical scripts developed during an R&D project for an educational behavioral analysis system. 
 
