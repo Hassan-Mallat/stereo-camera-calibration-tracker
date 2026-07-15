@@ -8,7 +8,7 @@ It implements a complete, object-oriented computer vision pipeline for spatial c
 For confidentiality and privacy reasons, **no visual data (`.mp4` files, classroom images, faces, or annotated data) is included in this repository**. 
 The scripts are provided bare. To run and test this pipeline, you must provide your own video feeds and place them in the appropriate input directories.
 
-## 🛠️ Prerequisites and Installation
+##  Prerequisites and Installation
 
 Ensure you have Python 3.x installed. Then, install the required mathematical and computer vision dependencies:
 
