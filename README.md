@@ -16,7 +16,6 @@ Ensure you have Python 3.x installed. Then, install the required mathematical an
 pip install -r requirements.txt
 ```
 
-## 📂 Project Architecture
 
 ## 📂 Project Architecture
 
